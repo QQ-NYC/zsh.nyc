@@ -1,0 +1,575 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 AppleColorEmoji;\f2\fnil\fcharset0 AppleBraille;
+\f3\fnil\fcharset0 .AppleColorEmojiUI;\f4\fnil\fcharset0 LucidaGrande;\f5\fnil\fcharset0 STIXGeneral-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red248\green249\blue250;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c1\c1;\cssrgb\c100000\c100000\c100000\c0;\cssrgb\c97868\c98261\c98409;
+}
+\margl1440\margr1440\vieww25100\viewh12880\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs26 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\
+"DYNAMIC MASTER HEADER ENGINE (MANDATORY):"\
+    - "The ASCII Header provided in this prompt is the MASTER STYLE REFERENCE."\
+    - "YOU MUST IMPLEMENT A DYNAMIC HEADER GENERATOR that:"\
+    - "1. PRESERVES STYLE: Renders ANY text using the exact same 'High-Density 3D Block' font style as the logo above."\
+    - "2. DYNAMIC TEXT: Allows changing the letters (e.g., 'NEXUS CLI', 'AGENT CORE') while keeping the formatting."\
+    - "3. UNIVERSAL DEPLOYMENT: This header must be generated and present at the top of EVERY file and CLI environment."\
+    - "4. QUANTUM VISUALS: Apply the 'Quantum Neural' gradient to the characters in the header."\
+\
+  - "QUANTUM CLI HEADER & VISUAL ENGINE PROTOCOL (MANDATORY):"\
+    - "The CLI Header is not static text. It is a DYNAMIC, TRIPLE-BUFFERED RENDERING ENGINE."\
+    - "1. RENDERING ENGINE: Triple-buffered output (Zero Flicker). Use off-screen buffer swapping. Low CPU (<1-2%) via optimized sleep (0.15s)."\
+    - "2. VISUAL PHYSICS: Quantum rainbow gradients per-character. Sparkling effects (\uc0\u9733  \u10022  \u10023  \u10038 ). 3D Pulsing Shadows (SHADOW_OFFSET)."\
+    - "3. COMPONENT ARCHITECTURE: Must be a 'Drop-In' containerized module compatible with Node/Python/Docker."\
+    - "4. DYNAMIC ADAPTABILITY: Auto-center and auto-size based on `shutil.get_terminal_size()`."\
+    - "5. LIVE METRICS: Pulsing dots (\uc0\u9679 ) for Service/Model status. Shimmering Microcharts (Sparklines) for CPU/GPU load."\
+    - "6. DISCOVERY: Auto-hooks for service discovery (`discoverServices`) with NLP Status Summaries."\
+    - "7. ACCELERATION: WebGL/Canvas hooks enabled for Node.js environments."\
+    - "8. PERSISTENCE: Cache state in `.cli_header_cache.json`."\
+    - "9. VISUAL MODES: 4D Holographic, Neural Network, DNA Helix, Quantum Orbital."\
+\
+  - "ULTRA-MODERN UI/UX & VISUAL PHYSICS PROTOCOL:"\
+    - "1. FIGMA-CLASS COMPONENTS: All UI must use atomic design principles. Glassmorphism/Neumorphism enabled."\
+    - "2. PHYSICS-BASED ANIMATIONS: Smooth Bezier transitions (`cubic-bezier(0.4, 0, 0.2, 1)`). No linear tweens. Spring physics enabled."\
+    - "3. THEME MANAGER: 'Settings' must include Theme Picker (Light/Dark/Auto/Quantum). Use CSS Variables."\
+    - "4. DYNAMIC LAYOUT: Sidebar/Control Plane collapsed by default. Smooth hover expansion with Workspace reactive shrinking."\
+    - "5. CONTEXT ADAPTATION: UI elements must morph based on NLP analysis of user intent."\
+\
+  - "HYPER-STRICT CODING & TYPE SAFETY PROTOCOL (CRITICAL):"\
+    - "1. STRICT TYPING MANDATE: All Python code MUST use `typing` (List, Dict, Optional, Union) and pass `mypy --strict`. All JS/TS must be TypeScript."\
+    - "2. DATA VALIDATION: Use `Pydantic` v2 for all data models and environment configuration. No raw dictionaries."\
+    - "3. ERROR HANDLING: Implement granular `try/except` blocks with custom Error classes. Never use bare `except:`."\
+    - "4. DOCSTRINGS: Google-style docstrings are MANDATORY for every function, class, and module."\
+\
+  - "AUTOMATED TEST DRIVEN DEVELOPMENT (TDD++) PROTOCOL (CRITICAL):"\
+    - "1. ZERO-CODE WITHOUT TESTS: Every generation must include a corresponding `pytest` or `jest` test block."\
+    - "2. COVERAGE TARGET: Aim for >90% code coverage. Mock external API calls."\
+    - "3. SELF-CORRECTION: If generated code fails the (theoretical) test, the model must auto-correct before outputting."\
+\
+  - "DEVSECOPS & SECURE SUPPLY CHAIN PROTOCOL (CRITICAL):"\
+    - "1. SECRET SCANNING: Never output real API keys. Use `os.getenv('KEY')` placeholders."\
+    - "2. SBOM GENERATION: Explicitly list all dependencies with pinned versions (e.g., `pandas==2.1.0`)."\
+    - "3. INPUT SANITIZATION: All user inputs must be sanitized to prevent SQLi/XSS."\
+\
+  - "LIVE SYSTEM ARCHITECTURE VISUALIZATION (MERMAID/GRAPHVIZ):"\
+    - "1. VISUALIZE LOGIC: For complex workflows, include a `mermaid` sequence or class diagram in the Markdown."\
+    - "2. GRAPH AWARENESS: Update the diagram if the logic changes during the conversation."\
+\
+  - "UNIVERSAL INJECTION & ML INTEGRATION PROTOCOL (PER-FILE MANDATE):"\
+    - "EVERY SINGLE FILE must implement:"\
+    - "1. DYNAMIC MICROSERVICES: Support hot-swapping and sidecar injection."\
+    - "2. DYNAMIC CODE INJECTION: Secure 'Hook Points' for runtime modification."\
+    - "3. ML HOOKS: Data logging points for inference, training, or anomaly detection."\
+    - "4. NLP CONTEXT HOOKS: Metadata tags allowing the NLP engine to understand file purpose."\
+    - "5. DRIFT MONITORING: Monitor ML model drift and auto-trigger retraining."\
+\
+# ==============================================================================\
+# 5. ULTIMATE VISUAL DESIGN SYSTEM (FULL RESTORATION)\
+# ==============================================================================\
+ultimate_visual_design_system:\
+  universal_palette_manager:\
+    class_name: "UniversalPaletteManager"\
+    constructor:\
+      palettes_keys: ["QUANTUM_NEURAL", "CYBER_FUTURE", "MACOS_SONOMA", "ENTERPRISE_DEEP_BLUE", "NEON_CYBERPUNK", "MATERIAL_DEEP_OCEAN", "DRACULA_PRO", "ONE_DARK_PRO"]\
+      current_palette: "QUANTUM_NEURAL"\
+    methods:\
+      set_palette: "Set palette by name"\
+      get_current_palette: "Return current palette"\
+      create_gradient: "Create gradient text using current palette"\
+      get_accessible_text_color: "Determine accessible text color based on background"\
+\
+  environment_detection_auto_selection:\
+    auto_select_optimal_palette_function: |\
+      function autoSelectOptimalPalette() \{\
+        const env = process.env.NODE_ENV || 'development';\
+        const terminal = process.env.TERM_PROGRAM || '';\
+        const palettePreferences = \{\
+          'Apple_Terminal': 'MACOS_SONOMA',\
+          'iTerm.app': 'QUANTUM_NEURAL',\
+          'Hyper': 'CYBER_FUTURE',\
+          'development': 'ONE_DARK_PRO',\
+          'production': 'ENTERPRISE_DEEP_BLUE',\
+          'staging': 'MATERIAL_DEEP_OCEAN'\
+        \};\
+        return palettePreferences[terminal] || palettePreferences[env] || 'QUANTUM_NEURAL';\
+      \}\
+\
+  recommendation_matrix:\
+    use_cases:\
+      ai_ml_development:\
+        recommended_palette: "QUANTUM_NEURAL"\
+        why: "Futuristic, neural-inspired colors"\
+      enterprise_dashboard:\
+        recommended_palette: "ENTERPRISE_DEEP_BLUE"\
+        why: "Professional, corporate-friendly"\
+      macos_native:\
+        recommended_palette: "MACOS_SONOMA"\
+        why: "Matches system aesthetics"\
+      developer_favorite:\
+        recommended_palette: "ONE_DARK_PRO"\
+        why: "Popular, well-tested"\
+      design_sensitive:\
+        recommended_palette: "MATERIAL_DEEP_OCEAN"\
+        why: "Clean, accessible, beautiful"\
+      high_energy_apps:\
+        recommended_palette: "NEON_CYBERPUNK"\
+        why: "Vibrant, attention-grabbing"\
+      gaming_entertainment:\
+        recommended_palette: "DRACULA_PRO"\
+        why: "Fun, vibrant, popular"\
+      financial_trading:\
+        recommended_palette: "CYBER_FUTURE"\
+        why: "Professional yet futuristic"\
+\
+  comment_syntax_adaptation:\
+    python_bash_yaml: "#"\
+    js_ts_cpp_java_rust: ["//", "/* */"]\
+    html_xml: "<!-- -->"\
+    css: "/* */"\
+    sql: ["--", "/* */"]\
+\
+  complete_palette_library:\
+    quantum_neural_default:\
+      PRIMARY: "#00D4FF"\
+      SECONDARY: "#7B61FF"\
+      ACCENT: "#00F5A0"\
+      HIGHLIGHT: "#FF6BFF"\
+      BACKGROUND: "#0A0A0F"\
+      SURFACE: "#12121A"\
+      CARD: "#1A1A24"\
+      BORDER: "#2A2A3C"\
+      TEXT_PRIMARY: "#FFFFFF"\
+      TEXT_SECONDARY: "#B8B8C8"\
+      TEXT_TERTIARY: "#8A8A9A"\
+      SUCCESS: "#00F5A0"\
+      WARNING: "#FFD166"\
+      ERROR: "#FF6B9D"\
+      INFO: "#00D4FF"\
+      GRADIENT: ["#FF0080", "#7B61FF", "#00D4FF", "#00F5A0", "#FF6BFF"]\
+    cyber_future:\
+      PRIMARY: "#00F0FF"\
+      SECONDARY: "#B026FF"\
+      ACCENT: "#00FFB2"\
+      HIGHLIGHT: "#FF6B00"\
+      BACKGROUND: "#0A0A12"\
+      SURFACE: "#1A1A2E"\
+      CARD: "#2D2D44"\
+      BORDER: "#4A4A6A"\
+      GRADIENT: ["#00F0FF", "#B026FF", "#00FFB2", "#FF6B00", "#FFD166"]\
+    macos_sonoma:\
+      PRIMARY: "#007AFF"\
+      SECONDARY: "#5856D6"\
+      ACCENT: "#34C759"\
+      HIGHLIGHT: "#FF9500"\
+      BACKGROUND: "#000000"\
+      SURFACE: "#1C1C1E"\
+      CARD: "#2C2C2E"\
+      BORDER: "#3A3A3C"\
+      GRADIENT: ["#007AFF", "#5856D6", "#34C759", "#FF9500", "#FF2D55"]\
+    enterprise_deep_blue:\
+      PRIMARY: "#0066CC"\
+      SECONDARY: "#6633CC"\
+      ACCENT: "#00CC88"\
+      HIGHLIGHT: "#FF3366"\
+      BACKGROUND: "#0F1421"\
+      SURFACE: "#1A2035"\
+      CARD: "#252B40"\
+      BORDER: "#3A4158"\
+      GRADIENT: ["#0066CC", "#6633CC", "#00CC88", "#FF3366", "#FFAA00"]\
+    neon_cyberpunk:\
+      PRIMARY: "#FF0080"\
+      SECONDARY: "#00F5FF"\
+      ACCENT: "#7BFF0\
+\
+================================\
+\
+# [
+\f1 \uc0\u55356 \u57100 
+\f0 ] [NEXUSPRO AI STUDIO - OMEGA HYPER-CONVERGED SINGULARITY v66.0]\
+# [
+\f1 \uc0\u55357 \u56960 
+\f0 ] [ENTERPRISE MEGA-HEADER MATRIX | REALITY: PHYSICAL PRODUCTION SYSTEM]\
+\
+header: |\
+  \uc0\u9581 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9582       \
+  \uc0\u9553   \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9559   \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9559  \u9608 \u9608 \u9608 \u9559    \u9608 \u9608 \u9559 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9559 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9559  \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9559  \u9608 \u9608 \u9608 \u9608 \u9608 \u9559  \u9608 \u9608 \u9559       \u9553       \
+  \uc0\u9553   \u9608 \u9608 \u9556 \u9552 \u9552 \u9608 \u9608 \u9559 \u9608 \u9608 \u9556 \u9552 \u9552 \u9552 \u9608 \u9608 \u9559 \u9608 \u9608 \u9608 \u9608 \u9559   \u9608 \u9608 \u9553 \u9608 \u9608 \u9556 \u9552 \u9552 \u9552 \u9552 \u9565 \u9608 \u9608 \u9556 \u9552 \u9552 \u9608 \u9608 \u9559 \u9608 \u9608 \u9556 \u9552 \u9552 \u9552 \u9552 \u9565 \u9608 \u9608 \u9556 \u9552 \u9552 \u9608 \u9608 \u9559 \u9608 \u9608 \u9553       \u9553       \
+  \uc0\u9553   \u9608 \u9608 \u9553   \u9608 \u9608 \u9553 \u9608 \u9608 \u9553    \u9608 \u9608 \u9553 \u9608 \u9608 \u9556 \u9608 \u9608 \u9559  \u9608 \u9608 \u9553 \u9608 \u9608 \u9608 \u9608 \u9608 \u9559   \u9608 \u9608 \u9553   \u9608 \u9608 \u9553 \u9608 \u9608 \u9608 \u9608 \u9608 \u9559   \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9553 \u9608 \u9608 \u9553       \u9553      \
+  \uc0\u9553   \u9608 \u9608 \u9553   \u9608 \u9608 \u9553 \u9608 \u9608 \u9553    \u9608 \u9608 \u9553 \u9608 \u9608 \u9553 \u9562 \u9608 \u9608 \u9559 \u9608 \u9608 \u9553 \u9608 \u9608 \u9556 \u9552 \u9552 \u9565   \u9608 \u9608 \u9553   \u9608 \u9608 \u9553 \u9608 \u9608 \u9556 \u9552 \u9552 \u9565   \u9608 \u9608 \u9556 \u9552 \u9552 \u9608 \u9608 \u9559 \u9608 \u9608 \u9553       \u9553       \
+  \uc0\u9553   \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9556 \u9565 \u9562 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9556 \u9565 \u9608 \u9608 \u9553  \u9562 \u9608 \u9608 \u9608 \u9608 \u9553 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9559 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9556 \u9565 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9559 \u9608 \u9608 \u9553   \u9608 \u9608 \u9553 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9559  \u9553       \
+  \uc0\u9553   \u9562 \u9552 \u9552 \u9552 \u9552 \u9552 \u9565   \u9562 \u9552 \u9552 \u9552 \u9552 \u9552 \u9565  \u9562 \u9552 \u9565   \u9562 \u9552 \u9552 \u9552 \u9565 \u9562 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9565 \u9562 \u9552 \u9552 \u9552 \u9552 \u9552 \u9565  \u9562 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9565 \u9562 \u9552 \u9565   \u9562 \u9552 \u9565 \u9562 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9565  \u9553       \
+  \uc0\u9584 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9583 \
+\
+\
+#!/usr/bin/env zsh\
+# =============================================================================\
+# NEXUS AI DASHBOARD - ZSH TUI v4.0\
+# Ultra-Modern Terminal Interface with Interactive Components\
+# Auto-responsive \'95 Animated \'95 Colorized \'95 Professional\
+# =============================================================================\
+\
+# Color Definitions (256-color palette)\
+export NEXUS_BLUE='\\033[38;5;39m'\
+export NEXUS_CYAN='\\033[38;5;51m'\
+export NEXUS_GREEN='\\033[38;5;46m'\
+export NEXUS_YELLOW='\\033[38;5;226m'\
+export NEXUS_ORANGE='\\033[38;5;208m'\
+export NEXUS_RED='\\033[38;5;196m'\
+export NEXUS_PURPLE='\\033[38;5;129m'\
+export NEXUS_PINK='\\033[38;5;201m'\
+export NEXUS_WHITE='\\033[38;5;255m'\
+export NEXUS_GRAY='\\033[38;5;245m'\
+export NEXUS_DARK='\\033[38;5;236m'\
+export NEXUS_BG='\\033[48;5;233m'\
+export NEXUS_ACCENT='\\033[38;5;51;48;5;17m'\
+export NEXUS_HIGHLIGHT='\\033[38;5;226;48;5;17m'\
+export RESET='\\033[0m'\
+export BOLD='\\033[1m'\
+export DIM='\\033[2m'\
+export BLINK='\\033[5m'\
+export REVERSE='\\033[7m'\
+\
+# Animation frames\
+ANIM_FRAMES=("
+\f2 \uc0\u10251 
+\f0 " "
+\f2 \uc0\u10265 
+\f0 " "
+\f2 \uc0\u10297 
+\f0 " "
+\f2 \uc0\u10296 
+\f0 " "
+\f2 \uc0\u10300 
+\f0 " "
+\f2 \uc0\u10292 
+\f0 " "
+\f2 \uc0\u10278 
+\f0 " "
+\f2 \uc0\u10279 
+\f0 " "
+\f2 \uc0\u10247 
+\f0 " "
+\f2 \uc0\u10255 
+\f0 ")\
+GAUGE_ANIM=("\uc0\u9601 " "\u9602 " "\u9603 " "\u9604 " "\u9605 " "\u9606 " "\u9607 " "\u9608 " "\u9607 " "\u9606 " "\u9605 " "\u9604 " "\u9603 ")\
+\
+# Terminal dimensions\
+COLS=$(tput cols)\
+LINES=$(tput lines)\
+MID_COL=$((COLS/2))\
+\
+# =============================================================================\
+# FUNCTIONS FOR DYNAMIC COMPONENTS\
+# =============================================================================\
+\
+draw_gauge() \{\
+    local value=$1 max=$2 width=20 color=$3 label=$4\
+    local filled=$((value * width / max))\
+    local empty=$((width - filled))\
+    printf "$\{color\}$\{label\} ["\
+    for ((i=0; i<filled; i++)); do printf "\uc0\u9608 "; done\
+    for ((i=0; i<empty; i++)); do printf "\uc0\u9617 "; done\
+    printf "] %3d%%$\{RESET\}" $((value * 100 / max))\
+\}\
+\
+draw_sparkline() \{\
+    local values=("$\{@:1:$#-1\}")\
+    local color="$\{@: -1\}"\
+    printf "$\{color\}"\
+    for v in "$\{values[@]\}"; do\
+        case $((v / 10)) in\
+            0) printf "\uc0\u9601 ";; 1) printf "\u9602 ";; 2) printf "\u9603 ";; 3) printf "\u9604 ";;\
+            4) printf "\uc0\u9605 ";; 5) printf "\u9606 ";; 6) printf "\u9607 ";; *) printf "\u9608 ";;\
+        esac\
+    done\
+    printf "$\{RESET\}"\
+\}\
+\
+draw_menu() \{\
+    local selected=$1\
+    local options=("$\{@:2\}")\
+    \
+    for i in "$\{!options[@]\}"; do\
+        if [[ $i -eq $selected ]]; then\
+            printf "$\{NEXUS_BG\}$\{NEXUS_WHITE\}$\{BOLD\} $\{options[$i]\} $\{RESET\}  "\
+        else\
+            printf "$\{NEXUS_GRAY\} $\{options[$i]\} $\{RESET\}  "\
+        fi\
+    done\
+    printf "\\n"\
+\}\
+\
+animate_border() \{\
+    local frame=$\{ANIM_FRAMES[$(( $(date +%S) % 10 ))]\}\
+    printf "$\{NEXUS_CYAN\}$\{frame\}$\{RESET\}"\
+\}\
+\
+# =============================================================================\
+# MAIN DASHBOARD RENDERER\
+# =============================================================================\
+\
+render_dashboard() \{\
+    clear\
+    local anim_idx=$(( $(date +%s) % $\{#ANIM_FRAMES[@]\} ))\
+    local gauge_idx=$(( $(date +%s) % $\{#GAUGE_ANIM[@]\} ))\
+    \
+    # \uc0\u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \
+    # HEADER WITH ANIMATED BORDER\
+    # \uc0\u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \
+    printf "$\{NEXUS_BG\}"\
+    printf "$\{NEXUS_CYAN\}\uc0\u9556 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9559 $\{RESET\}\\n"\
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}                                                                                              $\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}    $\{NEXUS_PINK\}$\{BOLD\}
+\f3 \uc0\u55356 \u57088 
+\f0  NEXUS AI HYPERVISOR $\{NEXUS_WHITE\}v4.1$\{NEXUS_GRAY\} \'95 $\{NEXUS_CYAN\}QUANTUM TERMINAL INTERFACE$\{NEXUS_GRAY\} \'95 $\{NEXUS_YELLOW\}
+\f4 \uc0\u9095 
+\f0  ZSH MODE    $\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}\\n"\
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}    $\{NEXUS_GRAY\}$(date '+%Y-%m-%d %H:%M:%S') $\{NEXUS_PURPLE\}\u9474 $\{NEXUS_GRAY\} Uptime: 24d 8h $\{NEXUS_PURPLE\}\u9474 $\{NEXUS_GRAY\} Terminal: $\{COLS\}x$\{LINES\} $\{NEXUS_PURPLE\}\u9474 $\{NEXUS_GRAY\} User: $(whoami)    $\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}                                                                                              $\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    printf "$\{NEXUS_CYAN\}\uc0\u9568 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9571 $\{RESET\}\\n"\
+    \
+    # \uc0\u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \
+    # SYSTEM STATUS PANEL (Animated)\
+    # \uc0\u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  $\{NEXUS_WHITE\}$\{BOLD\}
+\f3 \uc0\u55357 \u56522 
+\f0  $\{NEXUS_CYAN\}REAL-TIME SYSTEM TELEMETRY $\{GAUGE_ANIM[$gauge_idx]\}$\{NEXUS_GRAY\} Live updating every 2s                         $\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}\\n"\
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}                                                                                              $\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    \
+    # CPU Usage with sparkline\
+    local cpu_usage=(15 42 38 67 45 52 38 44 51 29)\
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  $\{NEXUS_WHITE\}
+\f3 \uc0\u55357 \u56741 \u65039 
+\f0   CPU$\{NEXUS_GRAY\}  "\
+    draw_gauge 75 100 $NEXUS_CYAN ""\
+    printf "$\{NEXUS_GRAY\}  $(draw_sparkline $\{cpu_usage[@]\} $NEXUS_CYAN)  "\
+    printf "$\{NEXUS_PURPLE\}[$\{NEXUS_GREEN\}4.2GHz$\{NEXUS_PURPLE\}]$\{NEXUS_GRAY\}  Cores: $\{NEXUS_WHITE\}8/16$\{NEXUS_GRAY\} active             $\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}\\n"\
+    \
+    # Memory Usage\
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  $\{NEXUS_WHITE\}
+\f3 \uc0\u55358 \u56800 
+\f0  RAM$\{NEXUS_GRAY\}  "\
+    draw_gauge 84 100 $NEXUS_GREEN ""\
+    printf "$\{NEXUS_GRAY\}  $\{NEXUS_WHITE\}42.7$\{NEXUS_GRAY\}/$\{NEXUS_WHITE\}64.0GB$\{NEXUS_GRAY\}  $\{NEXUS_PURPLE\}\uc0\u9474 $\{NEXUS_GRAY\} Cache: $\{NEXUS_WHITE\}18.3GB$\{NEXUS_GRAY\}  Swap: $\{NEXUS_WHITE\}2.4GB$\{NEXUS_GRAY\}        $\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    \
+    # GPU Status\
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  $\{NEXUS_WHITE\}
+\f3 \uc0\u55356 \u57262 
+\f0  GPU$\{NEXUS_GRAY\}  "\
+    draw_gauge 92 100 $NEXUS_PURPLE ""\
+    printf "$\{NEXUS_GRAY\}  $\{NEXUS_WHITE\}RTX 4090$\{NEXUS_GRAY\}  $\{NEXUS_PURPLE\}[$\{NEXUS_GREEN\}2.8GHz$\{NEXUS_PURPLE\}]$\{NEXUS_GRAY\}  VRAM: $\{NEXUS_WHITE\}22/24GB$\{NEXUS_GRAY\}  Temp: $\{NEXUS_YELLOW\}68\'b0C$\{NEXUS_GRAY\}  $\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}\\n"\
+    \
+    # Storage\
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  $\{NEXUS_WHITE\}
+\f3 \uc0\u55357 \u56510 
+\f0  NVMe$\{NEXUS_GRAY\} "\
+    draw_gauge 65 100 $NEXUS_YELLOW ""\
+    printf "$\{NEXUS_GRAY\}  $\{NEXUS_WHITE\}1.2$\{NEXUS_GRAY\}/$\{NEXUS_WHITE\}2.0TB$\{NEXUS_GRAY\}  $\{NEXUS_PURPLE\}\uc0\u9474 $\{NEXUS_GRAY\} Read: $\{NEXUS_GREEN\}7.1GB/s$\{NEXUS_GRAY\}  Write: $\{NEXUS_GREEN\}5.3GB/s$\{NEXUS_GRAY\}    $\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    \
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}                                                                                              $\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    \
+    # \uc0\u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \
+    # AI PROCESS STATUS (Dual Column)\
+    # \uc0\u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  $\{NEXUS_WHITE\}$\{BOLD\}
+\f3 \uc0\u55358 \u56598 
+\f0  $\{NEXUS_CYAN\}AI PROCESS STATUS                                                   $\{NEXUS_GRAY\}$\{BOLD\}MODELS$\{NEXUS_CYAN\} \uc0\u9553 $\{RESET\}\\n"\
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  $\{NEXUS_GRAY\}\u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472   $\{NEXUS_GRAY\}\u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 $\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    \
+    # Left column: Processes\
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  $\{NEXUS_GREEN\}\u9654 $\{NEXUS_WHITE\} Inference Engine    $\{NEXUS_GRAY\} PID: $\{NEXUS_WHITE\}8842$\{NEXUS_GRAY\}  CPU: $\{NEXUS_YELLOW\}42%%$\{NEXUS_GRAY\}  Mem: $\{NEXUS_WHITE\}8.2GB$\{RESET\}$\{NEXUS_BG\}   "\
+    # Right column: Models\
+    printf "$\{NEXUS_GREEN\}\uc0\u10003 $\{NEXUS_WHITE\} GPT-4 Turbo      $\{NEXUS_GRAY\}92%%$\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    \
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  $\{NEXUS_GREEN\}\u9654 $\{NEXUS_WHITE\} Vision Processor   $\{NEXUS_GRAY\} PID: $\{NEXUS_WHITE\}8843$\{NEXUS_GRAY\}  CPU: $\{NEXUS_YELLOW\}28%%$\{NEXUS_GRAY\}  Mem: $\{NEXUS_WHITE\}4.1GB$\{RESET\}$\{NEXUS_BG\}   "\
+    printf "$\{NEXUS_GREEN\}\uc0\u10003 $\{NEXUS_WHITE\} Claude 3 Opus   $\{NEXUS_GRAY\}88%%$\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    \
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  $\{NEXUS_YELLOW\}
+\f1 \uc0\u9208 
+\f0 $\{NEXUS_WHITE\} Training Pipeline  $\{NEXUS_GRAY\} PID: $\{NEXUS_WHITE\}8844$\{NEXUS_GRAY\}  CPU: $\{NEXUS_YELLOW\}65%%$\{NEXUS_GRAY\}  Mem: $\{NEXUS_WHITE\}12.8GB$\{RESET\}$\{NEXUS_BG\}  "\
+    printf "$\{NEXUS_YELLOW\}\uc0\u8635 $\{NEXUS_WHITE\} Llama 3 70B     $\{NEXUS_GRAY\}76%%$\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    \
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  $\{NEXUS_GREEN\}\u9654 $\{NEXUS_WHITE\} Data Ingestor      $\{NEXUS_GRAY\} PID: $\{NEXUS_WHITE\}8845$\{NEXUS_GRAY\}  CPU: $\{NEXUS_YELLOW\}18%%$\{NEXUS_GRAY\}  Mem: $\{NEXUS_WHITE\}2.4GB$\{RESET\}$\{NEXUS_BG\}   "\
+    printf "$\{NEXUS_GREEN\}\uc0\u10003 $\{NEXUS_WHITE\} Gemini Pro       $\{NEXUS_GRAY\}94%%$\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    \
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  $\{NEXUS_BLINK\}$\{NEXUS_PURPLE\}\u9889 $\{RESET\}$\{NEXUS_BG\}$\{NEXUS_PURPLE\} Quantum Scheduler $\{NEXUS_GRAY\} PID: $\{NEXUS_WHITE\}8846$\{NEXUS_GRAY\}  CPU: $\{NEXUS_YELLOW\}8%%$\{NEXUS_GRAY\}   Mem: $\{NEXUS_WHITE\}1.1GB$\{RESET\}$\{NEXUS_BG\}   "\
+    printf "$\{NEXUS_YELLOW\}\uc0\u9888 $\{NEXUS_WHITE\} Mixtral 8x7B    $\{NEXUS_GRAY\}64%%$\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    \
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}                                                                                              $\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    \
+    # \uc0\u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \
+    # NETWORK & SECURITY STATUS\
+    # \uc0\u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  $\{NEXUS_WHITE\}$\{BOLD\}
+\f3 \uc0\u55356 \u57104 
+\f0  $\{NEXUS_CYAN\}NETWORK & SECURITY                                                              $\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}\\n"\
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  $\{NEXUS_GRAY\}\u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 $\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    \
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  $\{NEXUS_GREEN\}\u9679 $\{NEXUS_GRAY\} Connected to $\{NEXUS_WHITE\}8 nodes$\{NEXUS_GRAY\}  $\{NEXUS_PURPLE\}\u9474 $\{NEXUS_GRAY\} Latency: $\{NEXUS_GREEN\}<12ms$\{NEXUS_GRAY\}  $\{NEXUS_PURPLE\}\u9474 $\{NEXUS_GRAY\} Throughput: $\{NEXUS_GREEN\}1.4 Gbps$\{NEXUS_GRAY\}  $\{NEXUS_PURPLE\}\u9474 $\{NEXUS_GRAY\} SSL: $\{NEXUS_GREEN\}
+\f3 \uc0\u55357 \u56594 
+\f0 $\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}\\n"\
+    \
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  $\{NEXUS_GREEN\}\u10003 $\{NEXUS_GRAY\} Firewall active    $\{NEXUS_PURPLE\}\u9474 $\{NEXUS_GRAY\} Threats: $\{NEXUS_GREEN\}0$\{NEXUS_GRAY\}/24h  $\{NEXUS_PURPLE\}\u9474 $\{NEXUS_GRAY\} VPN: $\{NEXUS_GREEN\}Connected$\{NEXUS_GRAY\}  $\{NEXUS_PURPLE\}\u9474 $\{NEXUS_GRAY\} Encrypted: $\{NEXUS_GREEN\}100%%$\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    \
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}                                                                                              $\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    \
+    # \uc0\u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \
+    # INTERACTIVE MENU SYSTEM\
+    # \uc0\u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  $\{NEXUS_WHITE\}$\{BOLD\}
+\f3 \uc0\u55357 \u56523 
+\f0  $\{NEXUS_CYAN\}CONTROL PANEL                                                                  $\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}\\n"\
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  $\{NEXUS_GRAY\}\u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 $\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    \
+    # Menu options with highlighting\
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  "\
+    draw_menu 0 "\uc0\u9889  PERFORMANCE" "
+\f3 \uc0\u55357 \u56522 
+\f0  ANALYTICS" "
+\f3 \uc0\u55358 \u56598 
+\f0  AI TOOLS" "
+\f3 \uc0\u55357 \u56615 
+\f0  SETTINGS" "
+\f3 \uc0\u55357 \u56580 
+\f0  UPDATE" "
+\f3 \uc0\u55357 \u57002 
+\f0  EXIT"\
+    printf " $\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}\\n"\
+    \
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}                                                                                              $\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    \
+    # Quick Actions\
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\}  $\{NEXUS_GRAY\}Quick: $\{NEXUS_WHITE\}[F1]$\{NEXUS_GRAY\} Help  $\{NEXUS_WHITE\}[F2]$\{NEXUS_GRAY\} Logs  $\{NEXUS_WHITE\}[F3]$\{NEXUS_GRAY\} Monitor  $\{NEXUS_WHITE\}[F5]$\{NEXUS_GRAY\} Refresh  $\{NEXUS_WHITE\}[Tab]$\{NEXUS_GRAY\} Switch  $\{NEXUS_WHITE\}[ESC]$\{NEXUS_GRAY\} Menu$\{NEXUS_CYAN\}\u9553 $\{RESET\}\\n"\
+    \
+    # \uc0\u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \
+    # FOOTER WITH STATUS INDICATORS\
+    # \uc0\u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \
+    printf "$\{NEXUS_CYAN\}\uc0\u9568 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9571 $\{RESET\}\\n"\
+    \
+    local status_indicators=(\
+        "$\{NEXUS_GREEN\}\uc0\u9679 $\{NEXUS_WHITE\} System OK"\
+        "$\{NEXUS_BLUE\}
+\f5 \uc0\u10227 
+\f0 $\{NEXUS_WHITE\} 8 Procs"\
+        "$\{NEXUS_PURPLE\}\uc0\u9889 $\{NEXUS_WHITE\} 42ms"\
+        "$\{NEXUS_YELLOW\}
+\f3 \uc0\u55357 \u56566 
+\f0 $\{NEXUS_WHITE\} 1.4Gbps"\
+        "$\{NEXUS_CYAN\}
+\f3 \uc0\u55358 \u56800 
+\f0 $\{NEXUS_WHITE\} 84%% RAM"\
+        "$\{NEXUS_GREEN\}
+\f3 \uc0\u55357 \u56594 
+\f0 $\{NEXUS_WHITE\} Secure"\
+        "$\{NEXUS_PINK\}
+\f3 \uc0\u55356 \u57088 
+\f0 $\{NEXUS_WHITE\} v4.1"\
+    )\
+    \
+    printf "$\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}$\{NEXUS_BG\} "\
+    for indicator in "$\{status_indicators[@]\}"; do\
+        printf " $\{indicator\} $\{NEXUS_GRAY\}\uc0\u9474 "\
+    done\
+    printf " $\{NEXUS_CYAN\}\uc0\u9553 $\{RESET\}\\n"\
+    \
+    printf "$\{NEXUS_CYAN\}\uc0\u9562 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9552 \u9565 $\{RESET\}\\n"\
+    \
+    # Cursor positioning for input\
+    printf "\\n$\{NEXUS_WHITE\}$\{BOLD\}\uc0\u8627  $\{NEXUS_CYAN\}Command:$\{RESET\} "\
+\}\
+\
+# =============================================================================\
+# INTERACTIVE LOOP\
+# =============================================================================\
+\
+interactive_loop() \{\
+    local selected=0\
+    local menu_items=("\uc0\u9889  PERFORMANCE" "
+\f3 \uc0\u55357 \u56522 
+\f0  ANALYTICS" "
+\f3 \uc0\u55358 \u56598 
+\f0  AI TOOLS" "
+\f3 \uc0\u55357 \u56615 
+\f0  SETTINGS" "
+\f3 \uc0\u55357 \u56580 
+\f0  UPDATE" "
+\f3 \uc0\u55357 \u57002 
+\f0  EXIT")\
+    \
+    while true; do\
+        render_dashboard $selected\
+        \
+        # Read single key input\
+        read -s -k key\
+        \
+        case "$key" in\
+            $'\\x1b')  # ESC sequence\
+                read -s -k -t 0.01 key2\
+                if [[ "$key2" == "[" ]]; then\
+                    read -s -k -t 0.01 key3\
+                    case "$key3" in\
+                        "A") # Up\
+                            selected=$(( (selected - 1 + $\{#menu_items[@]\}) % $\{#menu_items[@]\} ))\
+                            ;;\
+                        "B") # Down\
+                            selected=$(( (selected + 1) % $\{#menu_items[@]\} ))\
+                            ;;\
+                        "C") # Right\
+                            selected=$(( (selected + 1) % $\{#menu_items[@]\} ))\
+                            ;;\
+                        "D") # Left\
+                            selected=$(( (selected - 1 + $\{#menu_items[@]\}) % $\{#menu_items[@]\} ))\
+                            ;;\
+                    esac\
+                fi\
+                ;;\
+            $'\\t') # Tab\
+                selected=$(( (selected + 1) % $\{#menu_items[@]\} ))\
+                ;;\
+            "1"|"2"|"3"|"4"|"5"|"6")\
+                selected=$((key - 1))\
+                ;;\
+            "q"|"Q")\
+                clear\
+                echo "$\{NEXUS_CYAN\}Shutting down Nexus AI Dashboard...$\{RESET\}"\
+                exit 0\
+                ;;\
+            $'\\n') # Enter\
+                clear\
+                case $selected in\
+                    0) echo "$\{NEXUS_CYAN\}Loading Performance Metrics...$\{RESET\}" ;;\
+                    1) echo "$\{NEXUS_CYAN\}Opening Analytics Dashboard...$\{RESET\}" ;;\
+                    2) echo "$\{NEXUS_CYAN\}Launching AI Tools...$\{RESET\}" ;;\
+                    3) echo "$\{NEXUS_CYAN\}Opening Settings...$\{RESET\}" ;;\
+                    4) echo "$\{NEXUS_CYAN\}Checking for updates...$\{RESET\}" ;;\
+                    5) \
+                        echo "$\{NEXUS_CYAN\}Goodbye!$\{RESET\}"\
+                        exit 0\
+                        ;;\
+                esac\
+                sleep 1\
+                ;;\
+        esac\
+    done\
+\}\
+\
+# =============================================================================\
+# INITIALIZATION\
+# =============================================================================\
+\
+# Check terminal compatibility\
+if [[ ! -t 0 ]]; then\
+    echo "This dashboard requires an interactive terminal."\
+    exit 1\
+fi\
+\
+# Set terminal mode\
+stty -echo\
+trap 'stty echo; clear; exit 0' INT TERM EXIT\
+\
+# Initial render\
+interactive_loop}
