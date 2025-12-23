@@ -1,0 +1,1 @@
+{"version":3,"file":"quantum-field.d.ts","sourceRoot":"","sources":["../quantum-field.tsx"],"names":[],"mappings":"AAAA,OAAO,KAA8B,MAAM,OAAO,CAAC;AAcnD,UAAU,iBAAiB;IACzB,aAAa,EAAE,MAAM,CAAC;IACtB,cAAc,EAAE,MAAM,CAAC;IACvB,WAAW,EAAE,MAAM,CAAC;IACpB,KAAK,EAAE,eAAe,GAAG,eAAe,GAAG,qBAAqB,GAAG,sBAAsB,CAAC;CAC3F;AAmBD,eAAO,MAAM,sBAAsB,EAAE,KAAK,CAAC,EAAE,CAAC,iBAAiB,CAoE9D,CAAA"}

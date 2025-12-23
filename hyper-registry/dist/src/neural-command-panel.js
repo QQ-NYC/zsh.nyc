@@ -1,0 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NeuralCommandPanel = void 0;
+const jsx_runtime_1 = require("react/jsx-runtime");
+const ink_1 = require("ink");
+const NeuralCommandPanel = () => ((0, jsx_runtime_1.jsxs)(ink_1.Box, { flexDirection: "row", borderStyle: "round", borderColor: "magenta", marginY: 1, children: [(0, jsx_runtime_1.jsxs)(ink_1.Box, { flexDirection: "column", paddingX: 2, children: [(0, jsx_runtime_1.jsx)(ink_1.Text, { bold: true, color: "green", children: "\uD83C\uDFA4 NEURAL COMMAND INTERFACE \u2502 VOICE ACTIVATED \u2502 GESTURE ENABLED" }), (0, jsx_runtime_1.jsx)(ink_1.Text, { children: "[VOICE COMMANDS] Natural language \u2502 Context-aware \u2502 Multi-language \u2502 Voice profiles" })] }), (0, jsx_runtime_1.jsxs)(ink_1.Box, { flexDirection: "column", paddingX: 2, children: [(0, jsx_runtime_1.jsx)(ink_1.Text, { bold: true, color: "cyan", children: "Active Command Processing" }), (0, jsx_runtime_1.jsx)(ink_1.Text, { children: "\uD83C\uDFA4 LISTENING... \u2502 Parsing intent, context, parameters \u2502 [EXECUTING...]" })] }), (0, jsx_runtime_1.jsxs)(ink_1.Box, { flexDirection: "column", paddingX: 2, children: [(0, jsx_runtime_1.jsx)(ink_1.Text, { bold: true, color: "yellow", children: "Gesture Recognition" }), (0, jsx_runtime_1.jsx)(ink_1.Text, { children: "\uD83D\uDC49/\uD83D\uDC48/\uD83D\uDC46/\uD83D\uDC47/\u270A/\uD83E\uDD1A/\uD83E\uDD19/\uD83D\uDC4C/\uD83D\uDC4D/\uD83D\uDC4E/\u270C\uFE0F/\uD83E\uDD1F supported" })] })] }));
+exports.NeuralCommandPanel = NeuralCommandPanel;
+//# sourceMappingURL=neural-command-panel.js.map

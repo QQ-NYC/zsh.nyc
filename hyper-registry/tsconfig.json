@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "lib": ["ES2020"],
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "bundler",
+    "types": ["node"]
+  },
+  "include": [
+    "core/**/*",
+    "ui/**/*",
+    "ai/**/*",
+    "integrations/**/*",
+    "sub-registries/**/*",
+    "utils/**/*",
+    "config/**/*",
+    "hyper-registry.tsx",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "v1_*",
+    "github-conv",
+    "src",
+    "plugins",
+    "scripts",
+    "example-plugin.ts",
+    "fusion-scoring-engine.ts",
+    "neural-command-panel.tsx",
+    "quantum-field.tsx",
+    "registry.ts",
+    "tests"
+  ]
+}
